@@ -5,6 +5,7 @@ gem "jquery-rails"
 gem "devise"
 gem "simple_form"
 gem "paperclip"
+gem "aws-sdk"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development, :test do
