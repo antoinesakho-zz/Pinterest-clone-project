@@ -1,5 +1,6 @@
-<h1><%= @user.name %></h1>
-
+<h1><%= @user.name %> has posted <%= @user.pins.count%> surf pics </h1>
+<%= @user.image %>
+</br>
 <div id='pins'>
   <%= render @pins %>
 </div>
